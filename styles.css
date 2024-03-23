@@ -1,0 +1,233 @@
+h2 {
+	padding-left: 260px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+.kurs-block {
+  display: flex;
+  flex-direction: row;
+  width: 80%;  /* Set width to 60% */
+  max-width: 1600px;  /* Optional: Set a maximum width */
+  margin: 0 auto;  /* Center horizontally */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.kurs-image {
+  width: 50%;
+  height: 1000px;
+  overflow: hidden;
+  position: relative;
+}
+
+.kurs-image img {
+  width: 100%;
+  height: 100%;
+  /*object-fit: cover;*/
+}
+
+.kurs-discount {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.kurs-info {
+  width: 50%;
+  padding: 20px;
+}
+
+.kurs-price {
+  margin-bottom: 10px;
+}
+
+.kurs-price .old-price {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.kurs-price .new-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+.kurs-messages {
+  margin-bottom: 10px;
+}
+
+.kurs-message {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.kurs-message.green {
+  /*background-color: #00ff00;*/
+  color: green;
+}
+
+.kurs-message.yellow {
+  /*background-color: #ffff00;*/
+  color: yellow;
+}
+
+.kurs-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.kurs-notes {
+  margin-top: 10px;
+}
+
+.kurs-notes i {
+  font-size: 24px;
+  color: #ff0000;
+  margin-right: 10px;
+}
+
+.kurs-notes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.kurs-notes ul li {
+  margin-bottom: 5px;
+}
+/* розміщення інших курсів снизу  */
+.kurs-block-4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;  /* Set width to 60% */
+  max-width: 1600px;  /* Optional: Set a maximum width */
+  margin: 0 auto;  /* Center horizontally */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.kurs-item {
+  width: 23%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.kurs-item img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.kurs-item h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.kurs-item .kurs-price {
+  margin-top: 10px;
+}
+
+.kurs-item .kurs-price .old-price {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.kurs-item .kurs-price .new-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+.kurs-item .kurs-discount {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.footer {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-item {
+  flex: 1 0 20%;
+  padding: 0 10px;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+}
+
+.footer-list a {
+  color: #333;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-list a:hover {
+  color: #000;
+}
+
+.footer-img {
+  max-width: 100px;
+  max-height: 50px;
+}
+
+@media (max-width: 768px) {
+  .footer-row {
+    flex-direction: column;
+  }
+
+  .footer-item {
+    flex: 1 0 100%;
+  }
+}
+
+
+
+
+
